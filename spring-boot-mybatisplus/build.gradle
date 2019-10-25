@@ -1,0 +1,16 @@
+
+group = 'com.spring.boot.mybatisplus'
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    compile group: 'org.springframework.boot', name: 'spring-boot-devtools'
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test'
+
+    compile group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: '3.2.0'
+
+    compile group: 'com.baomidou', name: 'mybatis-plus-generator', version: '3.2.0'
+    compile group: 'org.apache.velocity', name: 'velocity-engine-core', version: '2.1'
+
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.18'
+
+}
